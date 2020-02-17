@@ -5,11 +5,15 @@ import {
 
 // an empty array goes here 
 
-export function mantra(state=[], action) {
+export function mantras(state=[
+    'What you seek is seeking you.', 
+    'You were born with wings, why prefer to crawl through life?', 
+    'Set your life on fire. Seek those who fan your flames.'
+    ], action) {
     const newState = [ ...state ];
     switch (action.type) {
         case ADD_MANTRA:
-            newState.push(action.payload.mantra);
+            newState.push(action.payload.mantras);
             break;
         default:
             break;

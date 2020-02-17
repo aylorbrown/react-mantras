@@ -22,4 +22,10 @@ reducer:
 
 ### React - Redux
 
-- containers directory 
+bridge the two parts of the application :) 
+
+- containers direct
+    - MantraListContainer
+    - MantraFormContainer 
+- mapStateToProps (only one needs)
+- mapDispatchtoProps (only one needs)

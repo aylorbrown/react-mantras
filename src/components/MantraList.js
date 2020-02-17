@@ -1,9 +1,15 @@
 import React from 'react';
 
-export default function MantraList() {
+export default function MantraList({
+    mantras
+}) {
     return (
-        <ul>
-
-        </ul>
+        <div>
+            {
+              mantras.map( (m, i) => (
+              <li key={i}>{m}</li>
+              ) )  
+            }
+        </div>
     );
 }
