@@ -1,5 +1,11 @@
+### Skeleton for making a React-Redux application 
+
+```
 npx create-react-app mantras
+```
+```
 npm i redux react-redux 
+```
 
 ### Redux
 
@@ -29,3 +35,6 @@ bridge the two parts of the application :)
     - MantraFormContainer 
 - mapStateToProps (only one needs)
 - mapDispatchtoProps (only one needs)
+
+
+![Demo](Kapture-2020-02-17-at-11.39.54.gif)
